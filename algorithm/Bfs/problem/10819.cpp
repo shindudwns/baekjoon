@@ -38,4 +38,4 @@ int main(void) {
 	}
 	bfs(0);
 	cout << mix;
-}
+}/fdas

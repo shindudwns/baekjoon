@@ -15,4 +15,4 @@ int main () {
     << "Detroit        7   9  0" << endl
     << "Minnesota      5  10  1";
     return 0;
-}
+}vhb

@@ -4,7 +4,7 @@
 #include<algorithm>
 #include<vector>
 #include<limits.h>
-
+q
 using namespace std;
 
 int n, k;

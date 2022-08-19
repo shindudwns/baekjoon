@@ -2,7 +2,7 @@
 using namespace std;
  
 int main()
-{
+{//
 	cout << "SHIP NAME      CLASS          DEPLOYMENT IN SERVICE" << endl;
 	cout << "N2 Bomber      Heavy Fighter  Limited    21        " << endl;	
 	cout << "J-Type 327     Light Combat   Unlimited  1         " << endl;

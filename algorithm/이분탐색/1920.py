@@ -30,3 +30,50 @@ for i in b:
       break        
 for i in answer:
   print(i)
+
+  
+# 시간 초과를 해결 할 수 없어서 딕셔너리를 이용하여 문제를 해결 했다.
+
+import sys 
+n = sys.stdin.readline()
+a =sorted(set(map(int,sys.stdin.readline().split())))
+m = sys.stdin.readline()
+b = map(int, sys.stdin.readline().split())
+answer=[]
+dic={}
+for i in a: # 위에서 중복값 제거를 해줬기 때문에 값만 추가하면 됨.
+  dic[i]=1
+for i in b:
+  if i in dic.keys():
+    answer.append(1)
+  else:
+    answer.append(0)
+for i in answer:
+  print(i)
+  
+# 이후 인터넷 검색을 이용하여 이분탐색을 사용하여 문제도 풀었다.
+
+import sys 
+n = sys.stdin.readline()
+a =sorted(set(map(int,sys.stdin.readline().split())))
+m = sys.stdin.readline()
+b = map(int, sys.stdin.readline().split())
+answer=[]
+for num in b:
+    s, e = 0, int(n) - 1		# 맨 앞 값과 맨 뒷  
+    check = False		
+    while s <= e:		# 앞값이 뒷값 보다 커지면 반복문 탈출
+        mid = (s + e) // 2	# 중간값
+        if num == a[mid]:	# 찾았을 때
+          check = True	
+          break		# 반복문 탈출
+        elif num > a[mid]:	# 값이 작으면
+          s = mid + 1	# 값 증가
+        else:			
+          e = mid - 1
+    if not check:		# 찾지 못한 경우
+      answer.append(0)		# 0 출력
+    else :
+      answer.append(1)
+for i in answer:
+  print(i)

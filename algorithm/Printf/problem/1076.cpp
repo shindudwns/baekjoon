@@ -5,7 +5,7 @@ using namespace std;
 
 int ohm[3];
 
-int main() {
+int main()  {
 	string input[3];
 	string color[10] = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"};
 	

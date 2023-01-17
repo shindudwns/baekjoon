@@ -11,7 +11,7 @@ int main() {
         int dog1 = deliver[i] % (a + b) ;
         int dog2 = deliver[i] % (c + d);
         if (dog1 <= a && dog1 != 0) ans[i]++;
-        if (dog2 <= c && dog2 != 0) ans[i]++;
+        if (dog2 <= c && dog2 != 0) ans[i]++;s
     }
     for (int i = 0; i < 3; i++)
         cout << ans[i] << '\n';

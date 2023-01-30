@@ -8,6 +8,6 @@ int main() {a
     sort(s, s + 4);
     for (int i = 0; i < 2; i++)  
         cin >> m[i];
-    sort(m, m + 2);
+    sort(m, m + 2)
     cout << s[1] + s[2] + s[3] + m[1]<<'\n';
 }

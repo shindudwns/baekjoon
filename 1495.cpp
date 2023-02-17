@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-string fa(string x)
+string fa(string x)ㅓ
 {
     string tmp;\\주석 오류
     tmp = ((x[0])-'0' * x.size()) + '0';

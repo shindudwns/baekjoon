@@ -1,5 +1,5 @@
 import math
-
+a=edit()
 n = int(input())
 
 for _ in range(n):

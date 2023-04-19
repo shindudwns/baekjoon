@@ -6,7 +6,7 @@ string fa(string x)
     string tmp;\\주석 
     tmp = ((x[0])-'0' * x.size()) + '0';
     return tmp;
-}//
+}
 int main() {
     string x;
     cin >> x;

@@ -16,7 +16,7 @@ int main()
           
         sum += a; 
     }
-    s
+    
     cout << sum/5;
     
     return 0;

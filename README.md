@@ -16,7 +16,7 @@ X
 
 
 
-checky
+check
 
 
 good at all perfec

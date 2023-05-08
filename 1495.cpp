@@ -3,7 +3,7 @@
 using namespace std;
 string fa(string x)
 {
-    string tmp;\\주
+    string tmp;\\
     tmp = ((x[0])-'0' * x.size()) + '0';
     return tmp;
 }

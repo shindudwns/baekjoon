@@ -11,5 +11,5 @@ for _ in range(n):
         print(1)
     elif abs(r1-r2) < distance < (r1+r2) :  # 두 원이 서로다른 두 점에서 만날 때
         print(2)
-    else
+    else:
         print(0)  # 그 외

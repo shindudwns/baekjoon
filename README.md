@@ -20,4 +20,4 @@ x
 checky
 
 
-good at all perfec
+good at all perfect

@@ -4,7 +4,7 @@
 
 
 
-yyddss
+yydd
 코딩
 알고리즘 분ㄹ
 x

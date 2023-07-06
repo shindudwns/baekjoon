@@ -7,7 +7,7 @@ int main() {
     int a,b,c;
     cin>>a>>b>>c;
  
-    if(a==60&&b==60&&c==60){ // 세 각의 크기가 모두 60
+    if(a==60&&b==60&&c==60){ // 세 각의 크기가 모두 6
         cout<<"Equilateral";
     }
  

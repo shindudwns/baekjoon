@@ -17,5 +17,5 @@ int main() {
     if (x.size() == 1)
         cout << "FA" << '\n';
     else
-        cout << "NFA" << '\n';
+        cout << "NFA" << '\n';//
 }

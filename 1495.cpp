@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-string fa(string x)//good
+string fa(string x)//gooL
 {
     string tmp;
     tmp = ((x[0])-'0' * x.size()) + '0';

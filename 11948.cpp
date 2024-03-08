@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-using namespace std;
+using namespace std
 int s[4],m[2];
 int main() {a;
     for (int i = 0; i < 4; i++)

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm>-
+#include <algorithm>
 using namespace std
 int s[4],m[2];as
 int main() {a;
